@@ -4,13 +4,13 @@ jobs:
   mkdir_on_centos:
     machine:
       enabled: true
-    resource_class: network-test/circleci-test
+    resource_class: iphonesekino-lab/centos-test
     steps:
       - checkout
 
       - add_ssh_keys:
           fingerprints:
-            - "SHA256:INhI0QRKnNV6ShUTo25EKc2A++IjgaQ/UOfQNJODL4c"
+            - "SHA256:bE3e1HhPZqgFkvtV76wlDR/0C3KAbr7brQtlYU8lq30"
 
       - run:
           name: Add CentOS host key safely
