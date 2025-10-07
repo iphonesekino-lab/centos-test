@@ -10,7 +10,7 @@ jobs:
 
       - add_ssh_keys:
           fingerprints:
-            - "SHA256:bE3e1HhPZqgFkvtV76wlDR/0C3KAbr7brQtlYU8lq30"
+            - "SHA256:9psW3L/gs5itmwUkBLaIO1+DgAdeICsTGxlm4uS8CWY"
 
       - run:
           name: Add CentOS host key safely
